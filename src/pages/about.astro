@@ -1,12 +1,15 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
+import { HERO_IMAGE_WIDTH, HERO_IMAGE_HEIGHT} from '../consts';
 ---
 
 <Layout
 	title="About Me"
 	description="about me"
 	pubDate={new Date('March 01 2025')}
-	heroImage="/blog-placeholder-about.jpg"
+	heroImage="/winter_photo.jpg"
+	heroImageWidth={HERO_IMAGE_WIDTH}
+	heroImageHeight={HERO_IMAGE_HEIGHT}
 >
 	<p>
 		I come from Istanbul and I am a Master's of Informatics student at the Technical University of Munich (TUM).
